@@ -4,4 +4,7 @@ NAME=Dunieski
 LNAME=Otano
 AGE=25
 
-echo "My name is $NAME $LNAME and I am $AGE years old"
+#Prints the name, lastname, and age
+echo "My name is $NAME $LNAME and I am $AGE years old" # echo command
+
+
