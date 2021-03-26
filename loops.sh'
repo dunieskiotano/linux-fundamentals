@@ -39,11 +39,10 @@
 #printf "\n"
 #fi
 
+
 # using break
 clear
-echo "----------------------"
-echo "        BREAK         "
-echo "----------------------"
+echo "---- BREAK -----"
 for number in $(seq 20)
 do
 if [[ $number == 10 ]]; then
@@ -53,9 +52,7 @@ echo $number
 fi
 done
 
-echo "----------------------"
-echo "      CONTINUE        "
-echo "----------------------"
+echo "----- CONTINUE -----"
 # using continue
 for number in $(seq 20)
 do
